@@ -44,7 +44,9 @@ impl App for DefaultApp {
         // TODO: permissions
         command_line.append_switch("enable-media-stream");
         command_line.append_switch("use-fake-ui-for-media-stream");
-        command_line.append_switch("disable-web-security");
+        
+        // TODO: test!
+        //command_line.append_switch("disable-web-security");
     }
 }
 
